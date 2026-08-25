@@ -5,11 +5,11 @@
 </div>
 
 <h1 align="center">FlowCarryCBF</h1>
-<h2 align="center">Flow Matching with Predictive Whole-Body CBF for Safe Bimanual Manipulation</h2>
+<h2 align="center">Flow Matching with Predictive Whole-Body CBF for Safe Mobile Bimanual Manipulation</h2>
 
 ## 📖 Introduction
 
-**FlowCarryCBF** is a vision-based framework for bimanual manipulation in dynamic environments. It combines Conditional Flow Matching for action generation with a predictive whole-body CBF-QP for safe, obstacle-aware execution.
+**FlowCarryCBF** is a vision-based framework for safe mobile bimanual manipulation in dynamic environments. It combines Conditional Flow Matching for coordinated mobile manipulation with a predictive whole-body CBF-QP for safe, obstacle-aware execution.
 
 ## 🖥️ Demos
 
