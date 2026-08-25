@@ -148,6 +148,10 @@ FlowCarryCBF/
 └── pyproject.toml
 ```
 
+# 📜 License
+
+This project is released under the [MIT License](LICENSE.txt).
+
 # 🙏 Acknowledgements
 
 This work builds upon excellent open-source projects including [Flow Matching Policy](https://hri-eu.github.io/flow-matching-policy/), [SafeFlowMPC](https://github.com/TU-Wien-ACIN-CDS/SafeFlowMPC), [SafeFlowMatcher](https://github.com/takahashi-seiryu/SafeFlowMatcher), [UR5e-DP-Family](https://github.com/yechen056/UR5e-DP-Family), and [ActPerMoMa](https://github.com/pearl-robot-lab/ActPerMoMa). We thank the authors and maintainers for their contributions.
