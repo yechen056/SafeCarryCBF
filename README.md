@@ -4,9 +4,7 @@
   <a href="./README_zh.md">简体中文</a>
 </div>
 
-<div align="center">
-  <font color="#60A5FA" size="6"><strong>FlowCarryCBF</strong></font>
-</div>
+<h1 align="center">FlowCarryCBF</h1>
 <h2 align="center">Flow Matching with Predictive Whole-Body CBF for Safe Bimanual Manipulation</h2>
 
 ## 📖 Introduction

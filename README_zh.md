@@ -4,9 +4,7 @@
   <strong>简体中文</strong></a>
 </div>
 
-<div align="center">
-  <font color="#60A5FA" size="6"><strong>FlowCarryCBF</strong></font>
-</div>
+<h1 align="center">FlowCarryCBF</h1>
 <h2 align="center">基于流匹配与预测式全身 CBF 的安全双臂操作</h2>
 
 ## 📖 项目简介
