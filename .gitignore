@@ -1,0 +1,30 @@
+# macOS metadata
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Local environments and IDE files
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+
+# Generated data, checkpoints, logs, and evaluation outputs
+data/
+checkpoints/
+outputs/
+logs/
+*.pt
+*.pth
+*.ckpt
+
+# Isaac Sim and Omniverse runtime files
+.cache/
+_out/
+*.log

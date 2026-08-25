@@ -1,0 +1,10 @@
+name: flowcarrycbf
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pinocchio=2.7.0
+  - pip
+  - pip:
+      - -e . --no-deps

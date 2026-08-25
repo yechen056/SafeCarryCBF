@@ -1,0 +1,94 @@
+name: FlowCarryCBF
+physics_engine: ${..physics_engine}
+
+env:
+  numEnvs: 1
+  envSpacing: 8.0
+  horizon: 600
+  controlFrequencyInv: 12
+  use_torso: true
+  randomize: true
+  enableDebugVis: false
+  continous_actions: 17
+  discrete_actions: 0
+  goal_xy: [-3.0, 0.0]
+  goal_yaw: 3.141592653589793
+  goal_pos_thresh: 0.12
+  goal_yaw_thresh: 0.08726646259971647
+  hold_seconds: 1.0
+  hold_test_seconds: 10.0
+  fixed_timeout_seconds: 30.0
+  stage1_timeout_seconds: 45.0
+  stage2_timeout_seconds: 55.0
+  max_base_linear_velocity: 0.25
+  max_base_angular_velocity: 0.60
+  max_base_linear_acceleration: 0.15
+  max_base_angular_acceleration: 0.40
+  max_arm_delta: 0.02
+  payload_dimensions: [0.24, 0.36, 0.12]
+  payload_mass: 0.20
+  payload_local_position: [0.4965, 0.0, 0.9076]
+  handle_radius: 0.0175
+  handle_length: 0.11
+  handle_clearance: 0.064
+  gripper_tool_outward_offset: 0.040
+  payload_pose_jitter: 0.005
+  payload_angle_jitter: 0.017453292519943295
+  payload_mass_jitter: 0.10
+  friction_jitter: 0.10
+  base_position_jitter: 0.01
+  base_yaw_jitter: 0.017453292519943295
+  max_obstacles: 5
+  obstacle_scenario: fixed
+  obstacle_clearance: 0.10
+  camera_width: 640
+  camera_height: 480
+  # Phase 3 overrides these explicitly; V1/V2 retain their existing visuals.
+  phase3_visuals: false
+  enable_eval_video_cameras: false
+  enable_depth_cameras: true
+  eval_camera_width: 1280
+  eval_camera_height: 720
+  fx: 280.0
+  fy: 280.0
+  cx: 320.0
+  cy: 240.0
+
+sim:
+  dt: 0.008333333333333333
+  use_gpu_pipeline: false
+  gravity: [0.0, 0.0, -9.81]
+  add_ground_plane: true
+  add_distant_light: true
+  use_flatcache: false
+  enable_scene_query_support: true
+  disable_contact_processing: false
+  enable_cameras: true
+  default_physics_material:
+    static_friction: 0.9
+    dynamic_friction: 0.8
+    restitution: 0.0
+  physx:
+    worker_thread_count: 4
+    solver_type: 1
+    use_gpu: false
+    solver_position_iteration_count: 8
+    solver_velocity_iteration_count: 2
+    contact_offset: 0.003
+    rest_offset: 0.0
+    bounce_threshold_velocity: 0.2
+    friction_offset_threshold: 0.01
+    friction_correlation_distance: 0.025
+    enable_sleeping: false
+    enable_stabilization: true
+    max_depenetration_velocity: 2.0
+  TiagoDualHolo:
+    override_usd_defaults: false
+    fixed_base: false
+    enable_self_collisions: false
+    enable_gyroscopic_forces: true
+    solver_position_iteration_count: 8
+    solver_velocity_iteration_count: 2
+    sleep_threshold: 0.0
+    stabilization_threshold: 0.0001
+    density: -1
